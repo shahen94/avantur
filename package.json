@@ -1,0 +1,16 @@
+{
+  "name": "avantur",
+  "version": "1.0.0",
+  "description": "",
+  "main": "di/index.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "reflect-metadata": "^0.1.13"
+  }
+}
