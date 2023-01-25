@@ -1,0 +1,10 @@
+kind: pipeline
+type: docker
+name: main
+
+steps:
+  - name: testing
+    image: node:14
+    commands:
+      - cat package.json
+      - cat di/index.ts
