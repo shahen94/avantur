@@ -1,10 +1,14 @@
 kind: pipeline
 type: docker
-name: main
+name: default
 
 steps:
-  - name: testing
-    image: node:14
+  - name: logging
+    image: golang
+    commands:
+      - echo "Hello World"
+
+  - name: frontend
+    image: node
     commands:
       - cat package.json
-      - cat di/index.ts
